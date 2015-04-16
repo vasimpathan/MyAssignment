@@ -1,0 +1,77 @@
+#tablewrapper {width:100%; margin:0 auto}
+#tableheader { height:55px}
+.search {float:left; padding:6px; border:1px solid #c6d5e1; background:#fff}
+#tableheader select {float:left; font-size:12px; width:125px; padding:2px 4px 4px}
+#tableheader input {float:left; font-size:12px; width:225px; padding:2px 4px 4px; margin-left:4px}
+.details {float:right; padding-top:12px; margin-right:20px;}
+.details div {float:left; margin-left:15px; font-size:12px}
+.tinytable {width:100%; border-left:1px solid #c6d5e1; border-top:1px solid #c6d5e1; border-bottom:none}
+
+
+.tinytable th {background:url(../img/bg.gif) repeat-x; text-align:left; color:#cfdce7; border:1px solid #fff; border-right:none}
+.tinytable th h3 {font-size:10px; padding:6px 8px 8px; text-align:center;}
+.tinytable td {padding:10px 6px 10px; text-align:center; border-bottom:1px solid #c6d5e1; border-right:1px solid #c6d5e1}
+.tinytable .head h3 {background:url(../img/sort.gif) 7px center no-repeat; cursor:pointer; padding-left:18px}
+.tinytable .desc, .sortable .asc {background:url(../img/bg.gif) repeat-x;}
+.tinytable .desc h3 {background:url(../img/desc.gif) 7px center no-repeat;  text-align:center;cursor:pointer; padding-left:18px}
+.tinytable .asc h3 {background:url(../img/asc.gif) 7px  center no-repeat; cursor:pointer;  text-align:center;padding-left:18px}
+.tinytable .head:hover, .tinytable .desc:hover, .tinytable .asc:hover {color:#fff}
+.tinytable .evenrow td {background:#fff}
+.tinytable .oddrow td {background:#ecf2f6}
+.tinytable td.evenselected {background:#ecf2f6}
+.tinytable td.oddselected {background:#dce6ee}
+.tinytable tfoot {background:#fff; font-weight:bold}
+.tinytable tfoot td {padding:6px 8px 8px}
+#tablefooter {height:15px; margin-top:20px; margin-bottom:30px;}
+#tablenav {float:left}
+#tablenav img {cursor:pointer}
+#tablenav div {float:left; margin-right:15px}
+#tablelocation {float:right; font-size:12px; margin-right:20px;}
+#tablelocation select {margin-right:3px}
+#tablelocation div {float:left; margin-left:15px}
+.page {margin-top:2px; font-style:italic}
+#selectedrow td {background:#c6d5e1}
+
+
+
+#tablewrapper_second {width:100%; margin:0 auto; };
+#tableheader_second { height:55px}
+.search_second {float:left; padding:6px; border:1px solid #c6d5e1; background:#fff}
+#tableheader_second select {float:left; font-size:12px; width:125px; padding:2px 4px 4px}
+#tableheader_second input {float:left; font-size:12px; width:225px; padding:2px 4px 4px; margin-left:4px}
+.details_second{float:right; padding-top:12px; margin-right:20px;}
+.details_second div {float:left; margin-left:15px; font-size:12px}
+
+.tinytable_second {width:100%; border-left:1px solid #c6d5e1; border-bottom:1px solid #c6d5e1;  border-right:1px solid #c6d5e1;}
+.tinytable_second th {background-color: #F1F1F1; text-shadow:0 1px 0 #fff; padding:4px 6px;
+	background:#ececec url(../img/bg-degrade-table.png) repeat-x scroll left top;
+	background-image: -moz-linear-gradient(center top , #F9F9F9, #ECECEC);  border-bottom:solid 1px #ccc;
+	background: -webkit-gradient(linear, center top ,center bottom, from(#F9F9F9), to(#ECECEC)) repeat scroll 0 0 transparent;
+	font-size:13px; text-align:left; color:#333;
+	
+	 text-align:left; color:#333; border:1px solid #ccc; border-right:none}
+.tinytable_second th h3 {font-size:10px; padding:6px 8px 8px; text-align:center;}
+
+
+.tinytable_second td {padding:10px 6px 10px; text-align:center; border-bottom:1px solid #ccc; margin:10px; }
+
+
+.tinytable_second .head h3 {background:url(../img/sort.gif) 7px center no-repeat; cursor:pointer; padding-left:18px}
+.tinytable_second .desc, .sortable .asc {background:url(../img/header-selected-bg.gif)}
+.tinytable_second .desc h3 {background:url(../img/desc.gif) 7px center no-repeat;  text-align:center;cursor:pointer; padding-left:18px}
+.tinytable_second .asc h3 {background:url(../img/asc.gif) 7px  center no-repeat; cursor:pointer;  text-align:center;padding-left:18px}
+.tinytable_second .head:hover, .tinytable .desc:hover, .tinytable .asc:hover {color:#000}
+.tinytable_second .evenrow td { background:#FFF;}
+.tinytable_second .oddrow td {  background:#FFF; }
+
+.tinytable tfoot {background:#fff; font-weight:bold}
+.tinytable tfoot td {padding:6px 8px 8px}
+#tablefooter {height:15px; margin-top:20px; margin-bottom:30px;}
+#tablenav {float:left}
+#tablenav img {cursor:pointer}
+#tablenav div {float:left; margin-right:15px}
+#tablelocation {float:right; font-size:12px; margin-right:20px;}
+#tablelocation select {margin-right:3px}
+#tablelocation div {float:left; margin-left:15px}
+.page {margin-top:2px; font-style:italic}
+#selectedrow td {background:#0099FF; color:#FFF;}
